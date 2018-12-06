@@ -1,0 +1,967 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4553360621B116C400B6B4A5 /* JNRestApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 4553360521B116C400B6B4A5 /* JNRestApi.m */; };
+		4553360921B1331F00B6B4A5 /* JNBaseRestApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 4553360821B1331F00B6B4A5 /* JNBaseRestApi.m */; };
+		4553360C21B134EE00B6B4A5 /* JNURLHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4553360B21B134EE00B6B4A5 /* JNURLHelper.m */; };
+		4553361121B4F5F600B6B4A5 /* JNTest_post.m in Sources */ = {isa = PBXBuildFile; fileRef = 4553361021B4F5F600B6B4A5 /* JNTest_post.m */; };
+		4553361421B502EF00B6B4A5 /* login.json in Resources */ = {isa = PBXBuildFile; fileRef = 4553361321B502EF00B6B4A5 /* login.json */; };
+		4553361821B5059900B6B4A5 /* JNGetMobileStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 4553361721B5059900B6B4A5 /* JNGetMobileStatus.m */; };
+		4553361B21B5065D00B6B4A5 /* getMobileStatus.json in Resources */ = {isa = PBXBuildFile; fileRef = 4553361A21B5065D00B6B4A5 /* getMobileStatus.json */; };
+		4553361D21B50A1000B6B4A5 /* Account.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4553361C21B50A1000B6B4A5 /* Account.storyboard */; };
+		4553362021B50DC500B6B4A5 /* JNGetMobileStatusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4553361F21B50DC500B6B4A5 /* JNGetMobileStatusViewController.m */; };
+		4553362321B52B0100B6B4A5 /* JNSMSCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4553362221B52B0100B6B4A5 /* JNSMSCodeViewController.m */; };
+		4553362821B536B200B6B4A5 /* JNCodeTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4553362721B536B200B6B4A5 /* JNCodeTextView.m */; };
+		4553362B21B53DB400B6B4A5 /* UIButton+CountDown.m in Sources */ = {isa = PBXBuildFile; fileRef = 4553362A21B53DB400B6B4A5 /* UIButton+CountDown.m */; };
+		4553362F21B643A500B6B4A5 /* SimpleBarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 4553362D21B643A400B6B4A5 /* SimpleBarChart.m */; };
+		4553363221B6455D00B6B4A5 /* JNLoginInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4553363121B6455D00B6B4A5 /* JNLoginInViewController.m */; };
+		4553363621B64D8A00B6B4A5 /* JNCollectionNotify.m in Sources */ = {isa = PBXBuildFile; fileRef = 4553363521B64D8A00B6B4A5 /* JNCollectionNotify.m */; };
+		4553363921B6596B00B6B4A5 /* JNResetLoginPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4553363821B6596B00B6B4A5 /* JNResetLoginPasswordViewController.m */; };
+		4553364121B68B6800B6B4A5 /* EarnMoneyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4553363E21B68B6800B6B4A5 /* EarnMoneyVC.m */; };
+		4553364221B68B6800B6B4A5 /* ServiceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4553363F21B68B6800B6B4A5 /* ServiceVC.m */; };
+		4553364321B68B6800B6B4A5 /* FindVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4553364021B68B6800B6B4A5 /* FindVC.m */; };
+		4553365B21B7635200B6B4A5 /* JNBarChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4553365A21B7635200B6B4A5 /* JNBarChartView.m */; };
+		4553365E21B782B700B6B4A5 /* JNLoginByMobile.m in Sources */ = {isa = PBXBuildFile; fileRef = 4553365D21B782B700B6B4A5 /* JNLoginByMobile.m */; };
+		4553366421B7953200B6B4A5 /* JNGetSMSCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 4553366321B7953200B6B4A5 /* JNGetSMSCode.m */; };
+		4553366721B7968300B6B4A5 /* JNValidateSMSCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 4553366621B7968300B6B4A5 /* JNValidateSMSCode.m */; };
+		4553366A21B796D400B6B4A5 /* JNResetLoginPassword.m in Sources */ = {isa = PBXBuildFile; fileRef = 4553366921B796D400B6B4A5 /* JNResetLoginPassword.m */; };
+		4553366F21B7BDD100B6B4A5 /* DDMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4553366C21B7BDD100B6B4A5 /* DDMenuController.m */; };
+		4553367021B7BDD100B6B4A5 /* nav_menu_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4553366D21B7BDD100B6B4A5 /* nav_menu_icon@2x.png */; };
+		4581E163217DA6F8002135FF /* NSArray+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 4581E162217DA6F8002135FF /* NSArray+Swizzling.m */; };
+		4581E169217DA76C002135FF /* NSString+JudgeString.m in Sources */ = {isa = PBXBuildFile; fileRef = 4581E168217DA76C002135FF /* NSString+JudgeString.m */; };
+		4581E16C217DA82C002135FF /* NSString+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 4581E16B217DA82C002135FF /* NSString+Utils.m */; };
+		4581E16F217DAD79002135FF /* JNURLUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4581E16E217DAD79002135FF /* JNURLUtil.m */; };
+		4581E172217DADD6002135FF /* JNGCDUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4581E171217DADD6002135FF /* JNGCDUtil.m */; };
+		4581E175217DB1E9002135FF /* JNActionUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4581E174217DB1E9002135FF /* JNActionUtil.m */; };
+		4581E178217DB365002135FF /* JNAppPreference.m in Sources */ = {isa = PBXBuildFile; fileRef = 4581E177217DB365002135FF /* JNAppPreference.m */; };
+		4581E17B217DB5C9002135FF /* JNFMDBUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4581E17A217DB5C9002135FF /* JNFMDBUtil.m */; };
+		4581E17E217DB711002135FF /* JNFileManagerUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4581E17D217DB711002135FF /* JNFileManagerUtil.m */; };
+		4581E184217DB805002135FF /* NSObject+Property.m in Sources */ = {isa = PBXBuildFile; fileRef = 4581E183217DB805002135FF /* NSObject+Property.m */; };
+		45F1565B217718AC008CC809 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F1565A217718AC008CC809 /* AppDelegate.m */; };
+		45F1565E217718AC008CC809 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F1565D217718AC008CC809 /* ViewController.m */; };
+		45F15661217718AC008CC809 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45F1565F217718AC008CC809 /* Main.storyboard */; };
+		45F15663217718B5008CC809 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45F15662217718B5008CC809 /* Assets.xcassets */; };
+		45F15666217718B6008CC809 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45F15664217718B6008CC809 /* LaunchScreen.storyboard */; };
+		45F15669217718B6008CC809 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F15668217718B6008CC809 /* main.m */; };
+		45F156842179A4E2008CC809 /* JNBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F156832179A4E2008CC809 /* JNBaseVC.m */; };
+		45F156872179A94F008CC809 /* JNBaseNavView.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F156862179A94F008CC809 /* JNBaseNavView.m */; };
+		45F1568A2179A960008CC809 /* JNBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F156892179A960008CC809 /* JNBaseView.m */; };
+		45F1568D2179AC2C008CC809 /* JNEmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F1568C2179AC2C008CC809 /* JNEmptyView.m */; };
+		45F156902179AFC8008CC809 /* JNBaseTVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F1568F2179AFC8008CC809 /* JNBaseTVCell.m */; };
+		45F156932179B246008CC809 /* JNBaseTC.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F156922179B246008CC809 /* JNBaseTC.m */; };
+		45F1569A2179BF1F008CC809 /* CYLPlusButtonSubclass.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F156962179BF1F008CC809 /* CYLPlusButtonSubclass.m */; };
+		45F1569B2179BF1F008CC809 /* CYLTabBarControllerConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F156992179BF1F008CC809 /* CYLTabBarControllerConfig.m */; };
+		45F156A12179C1A3008CC809 /* MineVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F156A02179C1A3008CC809 /* MineVC.m */; };
+		45F156A62179C5BA008CC809 /* Tabbar.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45F156A52179C5BA008CC809 /* Tabbar.xcassets */; };
+		8DBFCE9D21B8BEED0024C643 /* JNModularHead.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DBFCE9C21B8BEED0024C643 /* JNModularHead.m */; };
+		8DBFCEA021B8CE440024C643 /* JNModularACell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DBFCE9F21B8CE440024C643 /* JNModularACell.m */; };
+		8DE5DAF821B7DE42002C743F /* NoticeBannerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE5DAF721B7DE42002C743F /* NoticeBannerCell.m */; };
+		8DE5DAFB21B7E9A7002C743F /* JNBarChartCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE5DAFA21B7E9A6002C743F /* JNBarChartCell.m */; };
+		8DF5C9B421B781C6006ADC15 /* JNModularA.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF5C9B321B781C6006ADC15 /* JNModularA.m */; };
+		8DF5C9B821B7A620006ADC15 /* BannerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF5C9B721B7A620006ADC15 /* BannerCell.m */; };
+		9A7560E19C37642303BEEFFD /* libPods-OasisForGamer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B953B8D4E52FFFCB473AEFFA /* libPods-OasisForGamer.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4553360421B116C400B6B4A5 /* JNRestApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JNRestApi.h; sourceTree = "<group>"; };
+		4553360521B116C400B6B4A5 /* JNRestApi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JNRestApi.m; sourceTree = "<group>"; };
+		4553360721B1331F00B6B4A5 /* JNBaseRestApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JNBaseRestApi.h; sourceTree = "<group>"; };
+		4553360821B1331F00B6B4A5 /* JNBaseRestApi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JNBaseRestApi.m; sourceTree = "<group>"; };
+		4553360A21B134EE00B6B4A5 /* JNURLHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JNURLHelper.h; sourceTree = "<group>"; };
+		4553360B21B134EE00B6B4A5 /* JNURLHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JNURLHelper.m; sourceTree = "<group>"; };
+		4553360F21B4F5F600B6B4A5 /* JNTest_post.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JNTest_post.h; sourceTree = "<group>"; };
+		4553361021B4F5F600B6B4A5 /* JNTest_post.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JNTest_post.m; sourceTree = "<group>"; };
+		4553361321B502EF00B6B4A5 /* login.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = login.json; sourceTree = "<group>"; };
+		4553361621B5059900B6B4A5 /* JNGetMobileStatus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JNGetMobileStatus.h; sourceTree = "<group>"; };
+		4553361721B5059900B6B4A5 /* JNGetMobileStatus.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JNGetMobileStatus.m; sourceTree = "<group>"; };
+		4553361A21B5065D00B6B4A5 /* getMobileStatus.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = getMobileStatus.json; sourceTree = "<group>"; };
+		4553361C21B50A1000B6B4A5 /* Account.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Account.storyboard; sourceTree = "<group>"; };
+		4553361E21B50DC500B6B4A5 /* JNGetMobileStatusViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JNGetMobileStatusViewController.h; sourceTree = "<group>"; };
+		4553361F21B50DC500B6B4A5 /* JNGetMobileStatusViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JNGetMobileStatusViewController.m; sourceTree = "<group>"; };
+		4553362121B52B0100B6B4A5 /* JNSMSCodeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JNSMSCodeViewController.h; sourceTree = "<group>"; };
+		4553362221B52B0100B6B4A5 /* JNSMSCodeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JNSMSCodeViewController.m; sourceTree = "<group>"; };
+		4553362621B536B200B6B4A5 /* JNCodeTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNCodeTextView.h; sourceTree = "<group>"; };
+		4553362721B536B200B6B4A5 /* JNCodeTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JNCodeTextView.m; sourceTree = "<group>"; };
+		4553362921B53DB400B6B4A5 /* UIButton+CountDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+CountDown.h"; sourceTree = "<group>"; };
+		4553362A21B53DB400B6B4A5 /* UIButton+CountDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CountDown.m"; sourceTree = "<group>"; };
+		4553362D21B643A400B6B4A5 /* SimpleBarChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleBarChart.m; sourceTree = "<group>"; };
+		4553362E21B643A500B6B4A5 /* SimpleBarChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleBarChart.h; sourceTree = "<group>"; };
+		4553363021B6455D00B6B4A5 /* JNLoginInViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JNLoginInViewController.h; sourceTree = "<group>"; };
+		4553363121B6455D00B6B4A5 /* JNLoginInViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JNLoginInViewController.m; sourceTree = "<group>"; };
+		4553363421B64D8A00B6B4A5 /* JNCollectionNotify.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JNCollectionNotify.h; sourceTree = "<group>"; };
+		4553363521B64D8A00B6B4A5 /* JNCollectionNotify.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JNCollectionNotify.m; sourceTree = "<group>"; };
+		4553363721B6596B00B6B4A5 /* JNResetLoginPasswordViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JNResetLoginPasswordViewController.h; sourceTree = "<group>"; };
+		4553363821B6596B00B6B4A5 /* JNResetLoginPasswordViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JNResetLoginPasswordViewController.m; sourceTree = "<group>"; };
+		4553363A21B68B6100B6B4A5 /* FindVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindVC.h; sourceTree = "<group>"; };
+		4553363B21B68B6700B6B4A5 /* ServiceVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceVC.h; sourceTree = "<group>"; };
+		4553363D21B68B6800B6B4A5 /* EarnMoneyVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EarnMoneyVC.h; sourceTree = "<group>"; };
+		4553363E21B68B6800B6B4A5 /* EarnMoneyVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EarnMoneyVC.m; sourceTree = "<group>"; };
+		4553363F21B68B6800B6B4A5 /* ServiceVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceVC.m; sourceTree = "<group>"; };
+		4553364021B68B6800B6B4A5 /* FindVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindVC.m; sourceTree = "<group>"; };
+		4553365921B7635200B6B4A5 /* JNBarChartView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JNBarChartView.h; sourceTree = "<group>"; };
+		4553365A21B7635200B6B4A5 /* JNBarChartView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JNBarChartView.m; sourceTree = "<group>"; };
+		4553365C21B782B700B6B4A5 /* JNLoginByMobile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JNLoginByMobile.h; sourceTree = "<group>"; };
+		4553365D21B782B700B6B4A5 /* JNLoginByMobile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JNLoginByMobile.m; sourceTree = "<group>"; };
+		4553366221B7953200B6B4A5 /* JNGetSMSCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JNGetSMSCode.h; sourceTree = "<group>"; };
+		4553366321B7953200B6B4A5 /* JNGetSMSCode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JNGetSMSCode.m; sourceTree = "<group>"; };
+		4553366521B7968300B6B4A5 /* JNValidateSMSCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JNValidateSMSCode.h; sourceTree = "<group>"; };
+		4553366621B7968300B6B4A5 /* JNValidateSMSCode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JNValidateSMSCode.m; sourceTree = "<group>"; };
+		4553366821B796D400B6B4A5 /* JNResetLoginPassword.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JNResetLoginPassword.h; sourceTree = "<group>"; };
+		4553366921B796D400B6B4A5 /* JNResetLoginPassword.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JNResetLoginPassword.m; sourceTree = "<group>"; };
+		4553366C21B7BDD100B6B4A5 /* DDMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMenuController.m; sourceTree = "<group>"; };
+		4553366D21B7BDD100B6B4A5 /* nav_menu_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav_menu_icon@2x.png"; sourceTree = "<group>"; };
+		4553366E21B7BDD100B6B4A5 /* DDMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMenuController.h; sourceTree = "<group>"; };
+		4581E161217DA6F8002135FF /* NSArray+Swizzling.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+Swizzling.h"; sourceTree = "<group>"; };
+		4581E162217DA6F8002135FF /* NSArray+Swizzling.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Swizzling.m"; sourceTree = "<group>"; };
+		4581E167217DA76C002135FF /* NSString+JudgeString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+JudgeString.h"; sourceTree = "<group>"; };
+		4581E168217DA76C002135FF /* NSString+JudgeString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+JudgeString.m"; sourceTree = "<group>"; };
+		4581E16A217DA82C002135FF /* NSString+Utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Utils.h"; sourceTree = "<group>"; };
+		4581E16B217DA82C002135FF /* NSString+Utils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Utils.m"; sourceTree = "<group>"; };
+		4581E16D217DAD79002135FF /* JNURLUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JNURLUtil.h; sourceTree = "<group>"; };
+		4581E16E217DAD79002135FF /* JNURLUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JNURLUtil.m; sourceTree = "<group>"; };
+		4581E170217DADD6002135FF /* JNGCDUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JNGCDUtil.h; sourceTree = "<group>"; };
+		4581E171217DADD6002135FF /* JNGCDUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JNGCDUtil.m; sourceTree = "<group>"; };
+		4581E173217DB1E9002135FF /* JNActionUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JNActionUtil.h; sourceTree = "<group>"; };
+		4581E174217DB1E9002135FF /* JNActionUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JNActionUtil.m; sourceTree = "<group>"; };
+		4581E176217DB365002135FF /* JNAppPreference.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JNAppPreference.h; sourceTree = "<group>"; };
+		4581E177217DB365002135FF /* JNAppPreference.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JNAppPreference.m; sourceTree = "<group>"; };
+		4581E179217DB5C9002135FF /* JNFMDBUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JNFMDBUtil.h; sourceTree = "<group>"; };
+		4581E17A217DB5C9002135FF /* JNFMDBUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JNFMDBUtil.m; sourceTree = "<group>"; };
+		4581E17C217DB711002135FF /* JNFileManagerUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JNFileManagerUtil.h; sourceTree = "<group>"; };
+		4581E17D217DB711002135FF /* JNFileManagerUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JNFileManagerUtil.m; sourceTree = "<group>"; };
+		4581E182217DB805002135FF /* NSObject+Property.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Property.h"; sourceTree = "<group>"; };
+		4581E183217DB805002135FF /* NSObject+Property.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Property.m"; sourceTree = "<group>"; };
+		45F15656217718AB008CC809 /* OasisForGamer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OasisForGamer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45F15659217718AC008CC809 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		45F1565A217718AC008CC809 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		45F1565C217718AC008CC809 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		45F1565D217718AC008CC809 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		45F15660217718AC008CC809 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		45F15662217718B5008CC809 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		45F15665217718B6008CC809 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		45F15667217718B6008CC809 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45F15668217718B6008CC809 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		45F1567821785B1D008CC809 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		45F1567921785BAA008CC809 /* KeyMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyMacro.h; sourceTree = "<group>"; };
+		45F1567A21785BAA008CC809 /* UIMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIMacro.h; sourceTree = "<group>"; };
+		45F1567B21785BAA008CC809 /* BlockMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockMacro.h; sourceTree = "<group>"; };
+		45F1567C21785BAA008CC809 /* UtilsMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UtilsMacro.h; sourceTree = "<group>"; };
+		45F1567D21785BAA008CC809 /* AppMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppMacro.h; sourceTree = "<group>"; };
+		45F156822179A4E2008CC809 /* JNBaseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JNBaseVC.h; sourceTree = "<group>"; };
+		45F156832179A4E2008CC809 /* JNBaseVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JNBaseVC.m; sourceTree = "<group>"; };
+		45F156852179A94F008CC809 /* JNBaseNavView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JNBaseNavView.h; sourceTree = "<group>"; };
+		45F156862179A94F008CC809 /* JNBaseNavView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JNBaseNavView.m; sourceTree = "<group>"; };
+		45F156882179A960008CC809 /* JNBaseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JNBaseView.h; sourceTree = "<group>"; };
+		45F156892179A960008CC809 /* JNBaseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JNBaseView.m; sourceTree = "<group>"; };
+		45F1568B2179AC2C008CC809 /* JNEmptyView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JNEmptyView.h; sourceTree = "<group>"; };
+		45F1568C2179AC2C008CC809 /* JNEmptyView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JNEmptyView.m; sourceTree = "<group>"; };
+		45F1568E2179AFC8008CC809 /* JNBaseTVCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JNBaseTVCell.h; sourceTree = "<group>"; };
+		45F1568F2179AFC8008CC809 /* JNBaseTVCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JNBaseTVCell.m; sourceTree = "<group>"; };
+		45F156912179B246008CC809 /* JNBaseTC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JNBaseTC.h; sourceTree = "<group>"; };
+		45F156922179B246008CC809 /* JNBaseTC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JNBaseTC.m; sourceTree = "<group>"; };
+		45F156962179BF1F008CC809 /* CYLPlusButtonSubclass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLPlusButtonSubclass.m; sourceTree = "<group>"; };
+		45F156972179BF1F008CC809 /* CYLPlusButtonSubclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLPlusButtonSubclass.h; sourceTree = "<group>"; };
+		45F156982179BF1F008CC809 /* CYLTabBarControllerConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLTabBarControllerConfig.h; sourceTree = "<group>"; };
+		45F156992179BF1F008CC809 /* CYLTabBarControllerConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLTabBarControllerConfig.m; sourceTree = "<group>"; };
+		45F1569F2179C1A3008CC809 /* MineVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineVC.h; sourceTree = "<group>"; };
+		45F156A02179C1A3008CC809 /* MineVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineVC.m; sourceTree = "<group>"; };
+		45F156A52179C5BA008CC809 /* Tabbar.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Tabbar.xcassets; sourceTree = "<group>"; };
+		75BC0768EBBC24AA7B43E637 /* Pods-OasisForGamer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OasisForGamer.release.xcconfig"; path = "Pods/Target Support Files/Pods-OasisForGamer/Pods-OasisForGamer.release.xcconfig"; sourceTree = "<group>"; };
+		8DBFCE9B21B8BEED0024C643 /* JNModularHead.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JNModularHead.h; sourceTree = "<group>"; };
+		8DBFCE9C21B8BEED0024C643 /* JNModularHead.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JNModularHead.m; sourceTree = "<group>"; };
+		8DBFCE9E21B8CE440024C643 /* JNModularACell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JNModularACell.h; sourceTree = "<group>"; };
+		8DBFCE9F21B8CE440024C643 /* JNModularACell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JNModularACell.m; sourceTree = "<group>"; };
+		8DE5DAF621B7DE42002C743F /* NoticeBannerCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NoticeBannerCell.h; sourceTree = "<group>"; };
+		8DE5DAF721B7DE42002C743F /* NoticeBannerCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoticeBannerCell.m; sourceTree = "<group>"; };
+		8DE5DAF921B7E9A6002C743F /* JNBarChartCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JNBarChartCell.h; sourceTree = "<group>"; };
+		8DE5DAFA21B7E9A6002C743F /* JNBarChartCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JNBarChartCell.m; sourceTree = "<group>"; };
+		8DF5C9B221B781C6006ADC15 /* JNModularA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNModularA.h; sourceTree = "<group>"; };
+		8DF5C9B321B781C6006ADC15 /* JNModularA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JNModularA.m; sourceTree = "<group>"; };
+		8DF5C9B621B7A620006ADC15 /* BannerCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BannerCell.h; sourceTree = "<group>"; };
+		8DF5C9B721B7A620006ADC15 /* BannerCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BannerCell.m; sourceTree = "<group>"; };
+		94C369B5DE284A56C37ACF7D /* Pods-OasisForGamer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OasisForGamer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OasisForGamer/Pods-OasisForGamer.debug.xcconfig"; sourceTree = "<group>"; };
+		B953B8D4E52FFFCB473AEFFA /* libPods-OasisForGamer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OasisForGamer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45F15653217718AB008CC809 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A7560E19C37642303BEEFFD /* libPods-OasisForGamer.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4553360E21B4F5CD00B6B4A5 /* test */ = {
+			isa = PBXGroup;
+			children = (
+				4553360F21B4F5F600B6B4A5 /* JNTest_post.h */,
+				4553361021B4F5F600B6B4A5 /* JNTest_post.m */,
+			);
+			path = test;
+			sourceTree = "<group>";
+		};
+		4553361221B5029200B6B4A5 /* mock */ = {
+			isa = PBXGroup;
+			children = (
+				4553361321B502EF00B6B4A5 /* login.json */,
+				4553361A21B5065D00B6B4A5 /* getMobileStatus.json */,
+			);
+			path = mock;
+			sourceTree = "<group>";
+		};
+		4553361521B504FD00B6B4A5 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				4553361C21B50A1000B6B4A5 /* Account.storyboard */,
+				4553361E21B50DC500B6B4A5 /* JNGetMobileStatusViewController.h */,
+				4553361F21B50DC500B6B4A5 /* JNGetMobileStatusViewController.m */,
+				4553362121B52B0100B6B4A5 /* JNSMSCodeViewController.h */,
+				4553362221B52B0100B6B4A5 /* JNSMSCodeViewController.m */,
+				4553363021B6455D00B6B4A5 /* JNLoginInViewController.h */,
+				4553363121B6455D00B6B4A5 /* JNLoginInViewController.m */,
+				4553363721B6596B00B6B4A5 /* JNResetLoginPasswordViewController.h */,
+				4553363821B6596B00B6B4A5 /* JNResetLoginPasswordViewController.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		4553361921B5059F00B6B4A5 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				4553361621B5059900B6B4A5 /* JNGetMobileStatus.h */,
+				4553361721B5059900B6B4A5 /* JNGetMobileStatus.m */,
+				4553365C21B782B700B6B4A5 /* JNLoginByMobile.h */,
+				4553365D21B782B700B6B4A5 /* JNLoginByMobile.m */,
+				4553366221B7953200B6B4A5 /* JNGetSMSCode.h */,
+				4553366321B7953200B6B4A5 /* JNGetSMSCode.m */,
+				4553366521B7968300B6B4A5 /* JNValidateSMSCode.h */,
+				4553366621B7968300B6B4A5 /* JNValidateSMSCode.m */,
+				4553366821B796D400B6B4A5 /* JNResetLoginPassword.h */,
+				4553366921B796D400B6B4A5 /* JNResetLoginPassword.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		4553362421B536B200B6B4A5 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				4553366B21B7BDBB00B6B4A5 /* drawer */,
+				4553362C21B6438700B6B4A5 /* barChart */,
+				4553362521B536B200B6B4A5 /* CodeTextView */,
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		4553362521B536B200B6B4A5 /* CodeTextView */ = {
+			isa = PBXGroup;
+			children = (
+				4553362621B536B200B6B4A5 /* JNCodeTextView.h */,
+				4553362721B536B200B6B4A5 /* JNCodeTextView.m */,
+			);
+			path = CodeTextView;
+			sourceTree = "<group>";
+		};
+		4553362C21B6438700B6B4A5 /* barChart */ = {
+			isa = PBXGroup;
+			children = (
+				4553362E21B643A500B6B4A5 /* SimpleBarChart.h */,
+				4553362D21B643A400B6B4A5 /* SimpleBarChart.m */,
+				4553365921B7635200B6B4A5 /* JNBarChartView.h */,
+				4553365A21B7635200B6B4A5 /* JNBarChartView.m */,
+			);
+			path = barChart;
+			sourceTree = "<group>";
+		};
+		4553363321B64D6B00B6B4A5 /* Notify */ = {
+			isa = PBXGroup;
+			children = (
+				4553363421B64D8A00B6B4A5 /* JNCollectionNotify.h */,
+				4553363521B64D8A00B6B4A5 /* JNCollectionNotify.m */,
+			);
+			path = Notify;
+			sourceTree = "<group>";
+		};
+		4553363C21B68B6800B6B4A5 /* EarnMoney */ = {
+			isa = PBXGroup;
+			children = (
+				4553363D21B68B6800B6B4A5 /* EarnMoneyVC.h */,
+				4553363E21B68B6800B6B4A5 /* EarnMoneyVC.m */,
+			);
+			path = EarnMoney;
+			sourceTree = "<group>";
+		};
+		4553366B21B7BDBB00B6B4A5 /* drawer */ = {
+			isa = PBXGroup;
+			children = (
+				4553366E21B7BDD100B6B4A5 /* DDMenuController.h */,
+				4553366C21B7BDD100B6B4A5 /* DDMenuController.m */,
+				4553366D21B7BDD100B6B4A5 /* nav_menu_icon@2x.png */,
+			);
+			path = drawer;
+			sourceTree = "<group>";
+		};
+		4581E15F217DA66E002135FF /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				4581E16D217DAD79002135FF /* JNURLUtil.h */,
+				4581E16E217DAD79002135FF /* JNURLUtil.m */,
+				4581E170217DADD6002135FF /* JNGCDUtil.h */,
+				4581E171217DADD6002135FF /* JNGCDUtil.m */,
+				4581E173217DB1E9002135FF /* JNActionUtil.h */,
+				4581E174217DB1E9002135FF /* JNActionUtil.m */,
+				4581E179217DB5C9002135FF /* JNFMDBUtil.h */,
+				4581E17A217DB5C9002135FF /* JNFMDBUtil.m */,
+				4581E17C217DB711002135FF /* JNFileManagerUtil.h */,
+				4581E17D217DB711002135FF /* JNFileManagerUtil.m */,
+				4553360A21B134EE00B6B4A5 /* JNURLHelper.h */,
+				4553360B21B134EE00B6B4A5 /* JNURLHelper.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		4581E160217DA6B0002135FF /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				4553362921B53DB400B6B4A5 /* UIButton+CountDown.h */,
+				4553362A21B53DB400B6B4A5 /* UIButton+CountDown.m */,
+				4581E161217DA6F8002135FF /* NSArray+Swizzling.h */,
+				4581E162217DA6F8002135FF /* NSArray+Swizzling.m */,
+				4581E167217DA76C002135FF /* NSString+JudgeString.h */,
+				4581E168217DA76C002135FF /* NSString+JudgeString.m */,
+				4581E16A217DA82C002135FF /* NSString+Utils.h */,
+				4581E16B217DA82C002135FF /* NSString+Utils.m */,
+				4581E182217DB805002135FF /* NSObject+Property.h */,
+				4581E183217DB805002135FF /* NSObject+Property.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		45F1564D217718AB008CC809 = {
+			isa = PBXGroup;
+			children = (
+				45F15658217718AB008CC809 /* OasisForGamer */,
+				45F15657217718AB008CC809 /* Products */,
+				EA1AD45111EA8AE7B514B8F4 /* Pods */,
+				FCD064498A36E1E358FDEE3E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		45F15657217718AB008CC809 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45F15656217718AB008CC809 /* OasisForGamer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45F15658217718AB008CC809 /* OasisForGamer */ = {
+			isa = PBXGroup;
+			children = (
+				4553362421B536B200B6B4A5 /* Vendors */,
+				45F1567621771A5E008CC809 /* Sections */,
+				45F1567521771A50008CC809 /* Services */,
+				45F1567321771A32008CC809 /* Resources */,
+				45F1567221771A27008CC809 /* Images */,
+				45F1566F2177195C008CC809 /* APIs */,
+				45F156702177199F008CC809 /* Common */,
+				45F15671217719E7008CC809 /* Macro */,
+				45F1567721785AE1008CC809 /* System */,
+				45F1565C217718AC008CC809 /* ViewController.h */,
+				45F1565D217718AC008CC809 /* ViewController.m */,
+				45F15667217718B6008CC809 /* Info.plist */,
+				45F15668217718B6008CC809 /* main.m */,
+			);
+			path = OasisForGamer;
+			sourceTree = "<group>";
+		};
+		45F1566F2177195C008CC809 /* APIs */ = {
+			isa = PBXGroup;
+			children = (
+				4553361921B5059F00B6B4A5 /* Login */,
+				4553360E21B4F5CD00B6B4A5 /* test */,
+				4553360421B116C400B6B4A5 /* JNRestApi.h */,
+				4553360521B116C400B6B4A5 /* JNRestApi.m */,
+				4553360721B1331F00B6B4A5 /* JNBaseRestApi.h */,
+				4553360821B1331F00B6B4A5 /* JNBaseRestApi.m */,
+			);
+			path = APIs;
+			sourceTree = "<group>";
+		};
+		45F156702177199F008CC809 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				45F156812179A3B2008CC809 /* View */,
+				45F156802179A3AA008CC809 /* VC */,
+				45F1567F2179A3A0008CC809 /* Cell */,
+				45F1567E2179A38A008CC809 /* Kit */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		45F15671217719E7008CC809 /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				45F1567D21785BAA008CC809 /* AppMacro.h */,
+				45F1567B21785BAA008CC809 /* BlockMacro.h */,
+				45F1567921785BAA008CC809 /* KeyMacro.h */,
+				45F1567A21785BAA008CC809 /* UIMacro.h */,
+				45F1567C21785BAA008CC809 /* UtilsMacro.h */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		45F1567221771A27008CC809 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				45F15662217718B5008CC809 /* Assets.xcassets */,
+				45F156A52179C5BA008CC809 /* Tabbar.xcassets */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		45F1567321771A32008CC809 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4553361221B5029200B6B4A5 /* mock */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		45F1567521771A50008CC809 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4553363321B64D6B00B6B4A5 /* Notify */,
+				4581E160217DA6B0002135FF /* Categories */,
+				4581E15F217DA66E002135FF /* Utils */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		45F1567621771A5E008CC809 /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				4553363C21B68B6800B6B4A5 /* EarnMoney */,
+				4553363A21B68B6100B6B4A5 /* FindVC.h */,
+				4553364021B68B6800B6B4A5 /* FindVC.m */,
+				4553363B21B68B6700B6B4A5 /* ServiceVC.h */,
+				4553363F21B68B6800B6B4A5 /* ServiceVC.m */,
+				4553361521B504FD00B6B4A5 /* Login */,
+				45F1569F2179C1A3008CC809 /* MineVC.h */,
+				45F156A02179C1A3008CC809 /* MineVC.m */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		45F1567721785AE1008CC809 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				45F1565F217718AC008CC809 /* Main.storyboard */,
+				45F15664217718B6008CC809 /* LaunchScreen.storyboard */,
+				45F15659217718AC008CC809 /* AppDelegate.h */,
+				45F1565A217718AC008CC809 /* AppDelegate.m */,
+				45F1567821785B1D008CC809 /* PrefixHeader.pch */,
+				4581E176217DB365002135FF /* JNAppPreference.h */,
+				4581E177217DB365002135FF /* JNAppPreference.m */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		45F1567E2179A38A008CC809 /* Kit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Kit;
+			sourceTree = "<group>";
+		};
+		45F1567F2179A3A0008CC809 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				8DF5C9B521B7A5F3006ADC15 /* EarnMoneyCell */,
+				45F1568E2179AFC8008CC809 /* JNBaseTVCell.h */,
+				45F1568F2179AFC8008CC809 /* JNBaseTVCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		45F156802179A3AA008CC809 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				45F156952179BEF9008CC809 /* TabBar */,
+				45F156942179BEEC008CC809 /* Base */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		45F156812179A3B2008CC809 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8DF5C9B121B781C6006ADC15 /* Modular */,
+				45F156852179A94F008CC809 /* JNBaseNavView.h */,
+				45F156862179A94F008CC809 /* JNBaseNavView.m */,
+				45F156882179A960008CC809 /* JNBaseView.h */,
+				45F156892179A960008CC809 /* JNBaseView.m */,
+				45F1568B2179AC2C008CC809 /* JNEmptyView.h */,
+				45F1568C2179AC2C008CC809 /* JNEmptyView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		45F156942179BEEC008CC809 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				45F156822179A4E2008CC809 /* JNBaseVC.h */,
+				45F156832179A4E2008CC809 /* JNBaseVC.m */,
+				45F156912179B246008CC809 /* JNBaseTC.h */,
+				45F156922179B246008CC809 /* JNBaseTC.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		45F156952179BEF9008CC809 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				45F156972179BF1F008CC809 /* CYLPlusButtonSubclass.h */,
+				45F156962179BF1F008CC809 /* CYLPlusButtonSubclass.m */,
+				45F156982179BF1F008CC809 /* CYLTabBarControllerConfig.h */,
+				45F156992179BF1F008CC809 /* CYLTabBarControllerConfig.m */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		8DF5C9B121B781C6006ADC15 /* Modular */ = {
+			isa = PBXGroup;
+			children = (
+				8DF5C9B221B781C6006ADC15 /* JNModularA.h */,
+				8DF5C9B321B781C6006ADC15 /* JNModularA.m */,
+				8DBFCE9B21B8BEED0024C643 /* JNModularHead.h */,
+				8DBFCE9C21B8BEED0024C643 /* JNModularHead.m */,
+			);
+			path = Modular;
+			sourceTree = "<group>";
+		};
+		8DF5C9B521B7A5F3006ADC15 /* EarnMoneyCell */ = {
+			isa = PBXGroup;
+			children = (
+				8DF5C9B621B7A620006ADC15 /* BannerCell.h */,
+				8DF5C9B721B7A620006ADC15 /* BannerCell.m */,
+				8DE5DAF621B7DE42002C743F /* NoticeBannerCell.h */,
+				8DE5DAF721B7DE42002C743F /* NoticeBannerCell.m */,
+				8DE5DAF921B7E9A6002C743F /* JNBarChartCell.h */,
+				8DE5DAFA21B7E9A6002C743F /* JNBarChartCell.m */,
+				8DBFCE9E21B8CE440024C643 /* JNModularACell.h */,
+				8DBFCE9F21B8CE440024C643 /* JNModularACell.m */,
+			);
+			path = EarnMoneyCell;
+			sourceTree = "<group>";
+		};
+		EA1AD45111EA8AE7B514B8F4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				94C369B5DE284A56C37ACF7D /* Pods-OasisForGamer.debug.xcconfig */,
+				75BC0768EBBC24AA7B43E637 /* Pods-OasisForGamer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FCD064498A36E1E358FDEE3E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B953B8D4E52FFFCB473AEFFA /* libPods-OasisForGamer.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45F15655217718AB008CC809 /* OasisForGamer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45F1566C217718B6008CC809 /* Build configuration list for PBXNativeTarget "OasisForGamer" */;
+			buildPhases = (
+				13D00C7D66A12124EFB90061 /* [CP] Check Pods Manifest.lock */,
+				45F15652217718AB008CC809 /* Sources */,
+				45F15653217718AB008CC809 /* Frameworks */,
+				45F15654217718AB008CC809 /* Resources */,
+				E9BDC5D2633CFCF7335ED364 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OasisForGamer;
+			productName = OasisForGamer;
+			productReference = 45F15656217718AB008CC809 /* OasisForGamer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45F1564E217718AB008CC809 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = junion;
+				TargetAttributes = {
+					45F15655217718AB008CC809 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 45F15651217718AB008CC809 /* Build configuration list for PBXProject "OasisForGamer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45F1564D217718AB008CC809;
+			productRefGroup = 45F15657217718AB008CC809 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45F15655217718AB008CC809 /* OasisForGamer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45F15654217718AB008CC809 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4553361B21B5065D00B6B4A5 /* getMobileStatus.json in Resources */,
+				45F15666217718B6008CC809 /* LaunchScreen.storyboard in Resources */,
+				4553367021B7BDD100B6B4A5 /* nav_menu_icon@2x.png in Resources */,
+				45F15663217718B5008CC809 /* Assets.xcassets in Resources */,
+				4553361421B502EF00B6B4A5 /* login.json in Resources */,
+				45F15661217718AC008CC809 /* Main.storyboard in Resources */,
+				45F156A62179C5BA008CC809 /* Tabbar.xcassets in Resources */,
+				4553361D21B50A1000B6B4A5 /* Account.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13D00C7D66A12124EFB90061 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OasisForGamer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9BDC5D2633CFCF7335ED364 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-OasisForGamer/Pods-OasisForGamer-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OasisForGamer/Pods-OasisForGamer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45F15652217718AB008CC809 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4553366A21B796D400B6B4A5 /* JNResetLoginPassword.m in Sources */,
+				4581E163217DA6F8002135FF /* NSArray+Swizzling.m in Sources */,
+				4553364221B68B6800B6B4A5 /* ServiceVC.m in Sources */,
+				4553360621B116C400B6B4A5 /* JNRestApi.m in Sources */,
+				45F156872179A94F008CC809 /* JNBaseNavView.m in Sources */,
+				45F1565E217718AC008CC809 /* ViewController.m in Sources */,
+				45F156842179A4E2008CC809 /* JNBaseVC.m in Sources */,
+				4553361121B4F5F600B6B4A5 /* JNTest_post.m in Sources */,
+				4581E17E217DB711002135FF /* JNFileManagerUtil.m in Sources */,
+				4553363221B6455D00B6B4A5 /* JNLoginInViewController.m in Sources */,
+				8DBFCEA021B8CE440024C643 /* JNModularACell.m in Sources */,
+				4581E16C217DA82C002135FF /* NSString+Utils.m in Sources */,
+				4581E175217DB1E9002135FF /* JNActionUtil.m in Sources */,
+				45F156932179B246008CC809 /* JNBaseTC.m in Sources */,
+				4553360921B1331F00B6B4A5 /* JNBaseRestApi.m in Sources */,
+				4553364321B68B6800B6B4A5 /* FindVC.m in Sources */,
+				4553363621B64D8A00B6B4A5 /* JNCollectionNotify.m in Sources */,
+				4553366721B7968300B6B4A5 /* JNValidateSMSCode.m in Sources */,
+				45F1569A2179BF1F008CC809 /* CYLPlusButtonSubclass.m in Sources */,
+				8DBFCE9D21B8BEED0024C643 /* JNModularHead.m in Sources */,
+				4553362321B52B0100B6B4A5 /* JNSMSCodeViewController.m in Sources */,
+				4553362F21B643A500B6B4A5 /* SimpleBarChart.m in Sources */,
+				45F1568D2179AC2C008CC809 /* JNEmptyView.m in Sources */,
+				4553366F21B7BDD100B6B4A5 /* DDMenuController.m in Sources */,
+				4581E178217DB365002135FF /* JNAppPreference.m in Sources */,
+				45F156A12179C1A3008CC809 /* MineVC.m in Sources */,
+				8DF5C9B421B781C6006ADC15 /* JNModularA.m in Sources */,
+				4581E17B217DB5C9002135FF /* JNFMDBUtil.m in Sources */,
+				45F15669217718B6008CC809 /* main.m in Sources */,
+				4581E169217DA76C002135FF /* NSString+JudgeString.m in Sources */,
+				45F1565B217718AC008CC809 /* AppDelegate.m in Sources */,
+				4581E172217DADD6002135FF /* JNGCDUtil.m in Sources */,
+				8DE5DAF821B7DE42002C743F /* NoticeBannerCell.m in Sources */,
+				4553361821B5059900B6B4A5 /* JNGetMobileStatus.m in Sources */,
+				45F156902179AFC8008CC809 /* JNBaseTVCell.m in Sources */,
+				8DF5C9B821B7A620006ADC15 /* BannerCell.m in Sources */,
+				4581E16F217DAD79002135FF /* JNURLUtil.m in Sources */,
+				4553362021B50DC500B6B4A5 /* JNGetMobileStatusViewController.m in Sources */,
+				4553365B21B7635200B6B4A5 /* JNBarChartView.m in Sources */,
+				4553360C21B134EE00B6B4A5 /* JNURLHelper.m in Sources */,
+				4553365E21B782B700B6B4A5 /* JNLoginByMobile.m in Sources */,
+				45F1569B2179BF1F008CC809 /* CYLTabBarControllerConfig.m in Sources */,
+				4553366421B7953200B6B4A5 /* JNGetSMSCode.m in Sources */,
+				4553362B21B53DB400B6B4A5 /* UIButton+CountDown.m in Sources */,
+				8DE5DAFB21B7E9A7002C743F /* JNBarChartCell.m in Sources */,
+				4553364121B68B6800B6B4A5 /* EarnMoneyVC.m in Sources */,
+				4553363921B6596B00B6B4A5 /* JNResetLoginPasswordViewController.m in Sources */,
+				4581E184217DB805002135FF /* NSObject+Property.m in Sources */,
+				4553362821B536B200B6B4A5 /* JNCodeTextView.m in Sources */,
+				45F1568A2179A960008CC809 /* JNBaseView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		45F1565F217718AC008CC809 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45F15660217718AC008CC809 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		45F15664217718B6008CC809 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45F15665217718B6008CC809 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45F1566A217718B6008CC809 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		45F1566B217718B6008CC809 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45F1566D217718B6008CC809 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94C369B5DE284A56C37ACF7D /* Pods-OasisForGamer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZKMQ8KG6P2;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/OasisForGamer/System/PrefixHeader.pch";
+				INFOPLIST_FILE = OasisForGamer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cq.junion.OasisForGamer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		45F1566E217718B6008CC809 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75BC0768EBBC24AA7B43E637 /* Pods-OasisForGamer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZKMQ8KG6P2;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/OasisForGamer/System/PrefixHeader.pch";
+				INFOPLIST_FILE = OasisForGamer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cq.junion.OasisForGamer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45F15651217718AB008CC809 /* Build configuration list for PBXProject "OasisForGamer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45F1566A217718B6008CC809 /* Debug */,
+				45F1566B217718B6008CC809 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45F1566C217718B6008CC809 /* Build configuration list for PBXNativeTarget "OasisForGamer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45F1566D217718B6008CC809 /* Debug */,
+				45F1566E217718B6008CC809 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45F1564E217718AB008CC809 /* Project object */;
+}

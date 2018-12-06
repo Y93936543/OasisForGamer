@@ -1,0 +1,8 @@
+{
+    "code": 0,
+    "msg": "这个错误很严重！",
+    "showMsg":false,
+    "data": {
+        "status": "222"
+    }
+}

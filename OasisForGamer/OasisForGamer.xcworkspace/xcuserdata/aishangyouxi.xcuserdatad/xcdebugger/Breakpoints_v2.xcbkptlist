@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OasisForGamer/APIs/JNRestApi.m"
+            timestampString = "565699008.145763"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "107"
+            endingLineNumber = "107"
+            landmarkName = "-callWithTimeout:async:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OasisForGamer/APIs/JNRestApi.m"
+            timestampString = "565699008.145934"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "97"
+            endingLineNumber = "97"
+            landmarkName = "-callWithTimeout:async:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OasisForGamer/APIs/JNRestApi.m"
+            timestampString = "565699008.146023"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "109"
+            endingLineNumber = "109"
+            landmarkName = "-callWithTimeout:async:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OasisForGamer/APIs/JNRestApi.m"
+            timestampString = "565699008.1461281"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "100"
+            endingLineNumber = "100"
+            landmarkName = "-callWithTimeout:async:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OasisForGamer/APIs/JNRestApi.m"
+            timestampString = "565699008.146201"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "101"
+            endingLineNumber = "101"
+            landmarkName = "-callWithTimeout:async:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__35-[JNRestApi callWithTimeout:async:]_block_invoke.63"
+                  moduleName = "OasisForGamer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aishangyouxi/JL.DAPP.IOS/OasisForGamer/OasisForGamer/APIs/JNRestApi.m"
+                  timestampString = "565696598.947104"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "101"
+                  endingLineNumber = "101"
+                  offsetFromSymbolStart = "139">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__copy_helper_block_.64"
+                  moduleName = "OasisForGamer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aishangyouxi/JL.DAPP.IOS/OasisForGamer/OasisForGamer/APIs/JNRestApi.m"
+                  timestampString = "565696598.972447"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "99"
+                  endingLineNumber = "99"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OasisForGamer/APIs/JNRestApi.m"
+            timestampString = "565699008.14627"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "108"
+            endingLineNumber = "108"
+            landmarkName = "-callWithTimeout:async:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[JNRestApi callWithTimeout:async:]"
+                  moduleName = "OasisForGamer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aishangyouxi/JL.DAPP.IOS/OasisForGamer/OasisForGamer/APIs/JNRestApi.m"
+                  timestampString = "565696600.954217"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "108"
+                  endingLineNumber = "108"
+                  offsetFromSymbolStart = "2319">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__35-[JNRestApi callWithTimeout:async:]_block_invoke_2.72"
+                  moduleName = "OasisForGamer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aishangyouxi/JL.DAPP.IOS/OasisForGamer/OasisForGamer/APIs/JNRestApi.m"
+                  timestampString = "565696600.956533"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "108"
+                  endingLineNumber = "108"
+                  offsetFromSymbolStart = "133">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__copy_helper_block_.73"
+                  moduleName = "OasisForGamer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aishangyouxi/JL.DAPP.IOS/OasisForGamer/OasisForGamer/APIs/JNRestApi.m"
+                  timestampString = "565696600.9591351"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "106"
+                  endingLineNumber = "106"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__35-[JNRestApi callWithTimeout:async:]_block_invoke.76"
+                  moduleName = "OasisForGamer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aishangyouxi/JL.DAPP.IOS/OasisForGamer/OasisForGamer/APIs/JNRestApi.m"
+                  timestampString = "565696600.995553"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "108"
+                  endingLineNumber = "108"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__destroy_helper_block_.78"
+                  moduleName = "OasisForGamer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aishangyouxi/JL.DAPP.IOS/OasisForGamer/OasisForGamer/APIs/JNRestApi.m"
+                  timestampString = "565696601.023164"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "108"
+                  endingLineNumber = "108"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
